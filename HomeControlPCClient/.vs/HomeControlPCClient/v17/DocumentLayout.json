@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\WorkSpace\\HomeControlPCClient\\",
+  "WorkspaceRootPath": "D:\\WorkSpace\\HomeContorl\\HomeControlPCClient\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F20C3956-1F0A-4B03-9CF1-2CDEDA1526FC}|HomeControlPCClient\\HomeControlPCClient.csproj|d:\\workspace\\homecontrolpcclient\\homecontrolpcclient\\ucmainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F20C3956-1F0A-4B03-9CF1-2CDEDA1526FC}|HomeControlPCClient\\HomeControlPCClient.csproj|d:\\workspace\\homecontorl\\homecontrolpcclient\\homecontrolpcclient\\ucmainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F20C3956-1F0A-4B03-9CF1-2CDEDA1526FC}|HomeControlPCClient\\HomeControlPCClient.csproj|solutionrelative:homecontrolpcclient\\ucmainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F20C3956-1F0A-4B03-9CF1-2CDEDA1526FC}|HomeControlPCClient\\HomeControlPCClient.csproj|D:\\WorkSpace\\HomeControlPCClient\\homecontrolpcclient\\ucmainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{F20C3956-1F0A-4B03-9CF1-2CDEDA1526FC}|HomeControlPCClient\\HomeControlPCClient.csproj|D:\\WorkSpace\\HomeContorl\\HomeControlPCClient\\homecontrolpcclient\\ucmainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F20C3956-1F0A-4B03-9CF1-2CDEDA1526FC}|HomeControlPCClient\\HomeControlPCClient.csproj|solutionrelative:homecontrolpcclient\\ucmainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F20C3956-1F0A-4B03-9CF1-2CDEDA1526FC}|HomeControlPCClient\\HomeControlPCClient.csproj|D:\\WorkSpace\\HomeControlPCClient\\homecontrolpcclient\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F20C3956-1F0A-4B03-9CF1-2CDEDA1526FC}|HomeControlPCClient\\HomeControlPCClient.csproj|D:\\WorkSpace\\HomeContorl\\HomeControlPCClient\\homecontrolpcclient\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F20C3956-1F0A-4B03-9CF1-2CDEDA1526FC}|HomeControlPCClient\\HomeControlPCClient.csproj|solutionrelative:homecontrolpcclient\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F20C3956-1F0A-4B03-9CF1-2CDEDA1526FC}|HomeControlPCClient\\HomeControlPCClient.csproj|D:\\WorkSpace\\HomeControlPCClient\\homecontrolpcclient\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{F20C3956-1F0A-4B03-9CF1-2CDEDA1526FC}|HomeControlPCClient\\HomeControlPCClient.csproj|D:\\WorkSpace\\HomeContorl\\HomeControlPCClient\\homecontrolpcclient\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F20C3956-1F0A-4B03-9CF1-2CDEDA1526FC}|HomeControlPCClient\\HomeControlPCClient.csproj|solutionrelative:homecontrolpcclient\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F20C3956-1F0A-4B03-9CF1-2CDEDA1526FC}|HomeControlPCClient\\HomeControlPCClient.csproj|D:\\WorkSpace\\HomeControlPCClient\\homecontrolpcclient\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F20C3956-1F0A-4B03-9CF1-2CDEDA1526FC}|HomeControlPCClient\\HomeControlPCClient.csproj|D:\\WorkSpace\\HomeContorl\\HomeControlPCClient\\homecontrolpcclient\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F20C3956-1F0A-4B03-9CF1-2CDEDA1526FC}|HomeControlPCClient\\HomeControlPCClient.csproj|solutionrelative:homecontrolpcclient\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -36,11 +36,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "UCMainView.xaml.cs",
-              "DocumentMoniker": "D:\\WorkSpace\\HomeControlPCClient\\HomeControlPCClient\\UCMainView.xaml.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\HomeContorl\\HomeControlPCClient\\HomeControlPCClient\\UCMainView.xaml.cs",
               "RelativeDocumentMoniker": "HomeControlPCClient\\UCMainView.xaml.cs",
-              "ToolTip": "D:\\WorkSpace\\HomeControlPCClient\\HomeControlPCClient\\UCMainView.xaml.cs",
+              "ToolTip": "D:\\WorkSpace\\HomeContorl\\HomeControlPCClient\\HomeControlPCClient\\UCMainView.xaml.cs",
               "RelativeToolTip": "HomeControlPCClient\\UCMainView.xaml.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAiwE8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABoAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-16T02:24:13.794Z",
               "EditorCaption": ""
@@ -49,47 +49,51 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "UCMainView.xaml",
-              "DocumentMoniker": "D:\\WorkSpace\\HomeControlPCClient\\HomeControlPCClient\\UCMainView.xaml",
+              "DocumentMoniker": "D:\\WorkSpace\\HomeContorl\\HomeControlPCClient\\HomeControlPCClient\\UCMainView.xaml",
               "RelativeDocumentMoniker": "HomeControlPCClient\\UCMainView.xaml",
-              "ToolTip": "D:\\WorkSpace\\HomeControlPCClient\\HomeControlPCClient\\UCMainView.xaml",
+              "ToolTip": "D:\\WorkSpace\\HomeContorl\\HomeControlPCClient\\HomeControlPCClient\\UCMainView.xaml",
               "RelativeToolTip": "HomeControlPCClient\\UCMainView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-16T02:23:55.511Z"
+              "WhenOpened": "2025-04-16T02:23:55.511Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "MainViewModel.cs",
-              "DocumentMoniker": "D:\\WorkSpace\\HomeControlPCClient\\HomeControlPCClient\\MainViewModel.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\HomeContorl\\HomeControlPCClient\\HomeControlPCClient\\MainViewModel.cs",
               "RelativeDocumentMoniker": "HomeControlPCClient\\MainViewModel.cs",
-              "ToolTip": "D:\\WorkSpace\\HomeControlPCClient\\HomeControlPCClient\\MainViewModel.cs",
+              "ToolTip": "D:\\WorkSpace\\HomeContorl\\HomeControlPCClient\\HomeControlPCClient\\MainViewModel.cs",
               "RelativeToolTip": "HomeControlPCClient\\MainViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T02:23:45.546Z"
+              "WhenOpened": "2025-04-16T02:23:45.546Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\WorkSpace\\HomeControlPCClient\\HomeControlPCClient\\MainWindow.xaml",
+              "DocumentMoniker": "D:\\WorkSpace\\HomeContorl\\HomeControlPCClient\\HomeControlPCClient\\MainWindow.xaml",
               "RelativeDocumentMoniker": "HomeControlPCClient\\MainWindow.xaml",
-              "ToolTip": "D:\\WorkSpace\\HomeControlPCClient\\HomeControlPCClient\\MainWindow.xaml",
+              "ToolTip": "D:\\WorkSpace\\HomeContorl\\HomeControlPCClient\\HomeControlPCClient\\MainWindow.xaml",
               "RelativeToolTip": "HomeControlPCClient\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-16T02:21:10.828Z"
+              "WhenOpened": "2025-04-16T02:21:10.828Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\WorkSpace\\HomeControlPCClient\\HomeControlPCClient\\MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\HomeContorl\\HomeControlPCClient\\HomeControlPCClient\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "HomeControlPCClient\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\WorkSpace\\HomeControlPCClient\\HomeControlPCClient\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\WorkSpace\\HomeContorl\\HomeControlPCClient\\HomeControlPCClient\\MainWindow.xaml.cs",
               "RelativeToolTip": "HomeControlPCClient\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvxsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T02:21:10.09Z"
+              "WhenOpened": "2025-04-16T02:21:10.09Z",
+              "EditorCaption": ""
             }
           ]
         }

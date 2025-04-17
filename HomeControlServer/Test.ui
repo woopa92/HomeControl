@@ -80,7 +80,7 @@ QTabBar::tab:selected {
       <property name="tabBarAutoHide">
        <bool>false</bool>
       </property>
-      <widget class="QWidget" name="widget">
+      <widget class="QWidget" name="Home">
        <property name="layoutDirection">
         <enum>Qt::LeftToRight</enum>
        </property>
@@ -89,7 +89,7 @@ QTabBar::tab:selected {
        </property>
        <attribute name="icon">
         <iconset>
-         <normaloff>E:/Icons/Home64.png</normaloff>E:/Icons/Home64.png</iconset>
+         <normaloff>Icons/Home.png</normaloff>Icons/Home.png</iconset>
        </attribute>
        <attribute name="title">
         <string/>
@@ -123,17 +123,32 @@ QPushButton:hover {
 }</string>
         </property>
         <property name="text">
-         <string>PushButton</string>
+         <string/>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>64</width>
+          <height>64</height>
+         </size>
         </property>
         <property name="checkable">
          <bool>true</bool>
         </property>
        </widget>
       </widget>
-      <widget class="QWidget" name="widget">
+      <widget class="QWidget" name="Game">
        <attribute name="icon">
         <iconset>
-         <normaloff>E:/Icons/Game64.png</normaloff>E:/Icons/Game64.png</iconset>
+         <normaloff>Icons/Game.png</normaloff>Icons/Game.png</iconset>
+       </attribute>
+       <attribute name="title">
+        <string/>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="Setting">
+       <attribute name="icon">
+        <iconset>
+         <normaloff>Icons/Setting.png</normaloff>Icons/Setting.png</iconset>
        </attribute>
        <attribute name="title">
         <string/>

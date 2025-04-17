@@ -1,4 +1,5 @@
 from PyQt5 import QtWidgets, uic
+from PyQt5.QtGui import QIcon
 from flask import Flask, request, jsonify
 from threading import Thread
 import requests
@@ -12,28 +13,23 @@ clients = []
 def register_client():
     data = request.json
     client_url = data.get("url")
+    result = data.get("result")
     if client_url:
-        clients.append(client_url)
-        print(f"🖥️ 클라이언트 등록됨: {client_url}")
-        return jsonify({"status": "registered"})
-    return jsonify({"error": "invalid"}), 400
-
-@app.route('/update-icon', methods=['POST'])
-def update_icon():
-    data = request.json
-    message = data.get("message")
-    if message:
-        print(f"📥 메시지 수신: {message}")
-        # 메시지에 따라 PyQt5 UI 업데이트
-        window.update_audio_switch_icon(message)
-        return jsonify({"status": "icon updated"})
-    return jsonify({"error": "invalid message"}), 300
+        if client_url not in clients:
+            clients.append(client_url)            
+            print(f"🖥️ 클라이언트 등록됨: {client_url}")
+        else:
+            print(f"⚠️ 이미 등록된 클라이언트: {client_url}")
+    if result:        
+        window.update_audio_switch_icon(result)
+    return jsonify({"status": "registered"})
 
 @app.route('/client-complete', methods=['POST'])
 def client_complete():
     data = request.json
     result = data.get("result")
-    if result:
+    if result:        
+        window.update_audio_switch_icon(result)
         print(f"✅ 클라이언트 완료 신호 수신: {result}")
     else :
         print("❌ 클라이언트 완료 신호 수신 실패")
@@ -65,18 +61,18 @@ class UI(QtWidgets.QMainWindow):
         self.AudioSwitch.clicked.connect(self.AudioSwitch_clicked)
 
         # 전체화면으로 사용 예정
-        self.showFullScreen()
+        # self.showFullScreen()
 
     def AudioSwitch_clicked(self):
         send_command_to_clients("AudioChange")
 
     def update_audio_switch_icon(self, message):
         if message == "HeadSet":
-            print("🔊 오디오 스위치 아이콘 업데이트")
-            self.AudioSwitch.setIcon(QtWidgets.QIcon("HeadSet.png"))
+            print("헤드셋", message)
+            self.AudioSwitch.setIcon(QIcon('Icons/Headset.png'))
         elif message == "Speaker":
-            print("🔊 오디오 스위치 아이콘 업데이트")
-            self.AudioSwitch.setIcon(QtWidgets.QIcon("Speaker.png"))
+            print("스피커", message)
+            self.AudioSwitch.setIcon(QIcon('Icons/Speaker.png'))
 
 # 실행
 if __name__ == "__main__":
