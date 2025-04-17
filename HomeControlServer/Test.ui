@@ -23,7 +23,7 @@
    <bool>false</bool>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: #323232</string>
+   <string notr="true">background-color: #141316</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout_2">
@@ -38,11 +38,11 @@
       <property name="styleSheet">
        <string notr="true">QTabWidget::pane {
     border: 1px solid #ccc;
-    background-color: rgba(34, 34, 34, 150);
+    background-color: #141316;
 }
 
 QTabBar::tab {
-    background: rgba(34, 34, 34, 150);
+    background: #141316;
 	padding-top: 10px;
 	padding-bottom: 25px;
 	padding-left: 20px;
