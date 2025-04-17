@@ -123,16 +123,24 @@ namespace HomeControlPCClient
             dynamic data = JsonConvert.DeserializeObject(body);
             string command = data?.command;
 
-            if (command == "AudioChange")
+            switch(command)
             {
-                string curAudio = audioController.DefaultPlaybackDevice.Equals(headsetDevice) ? "HeadSet" : "Speaker";
-                var result = await AudioChange();
-                // 서버에 완료 통지
-                var complete = new { result = $"{curAudio}", client = DeviceName };
-                var json = new StringContent(JsonConvert.SerializeObject(complete), Encoding.UTF8, "application/json");
-                await client.PostAsync($"{IP}:{PortServer}/client-complete", json);
+                case "AudioChange":
+                    {
+                        string curAudio = audioController.DefaultPlaybackDevice.Equals(headsetDevice) ? "HeadSet" : "Speaker";
+                        var result = await AudioChange();
+                        // 서버에 완료 통지
+                        var complete = new { result = $"{curAudio}", client = DeviceName };
+                        var json = new StringContent(JsonConvert.SerializeObject(complete), Encoding.UTF8, "application/json");
+                        await client.PostAsync($"{IP}:{PortServer}/client-complete", json);
+                    }
+                    break;
+                case "Register":
+                    // 서버에 등록
+                    break;
+                default:
+                    break;
             }
-
             // 응답 전송
             string responseString = "{\"status\":\"ok\"}";
             byte[] buffer = Encoding.UTF8.GetBytes(responseString);
